@@ -23,7 +23,7 @@ The given number is not divisible by both 3 & 5.
 		
 		printf("Enter any number:- ");
 		scanf("%d",&a);
-		(a%3==0 || a%5==0)?printf("The given number is divisible by both..")
+		(a%3==0 && a%5==0)?printf("The given number is divisible by both..")
 			:printf("The given number is not divisible..");
 	}
 	
